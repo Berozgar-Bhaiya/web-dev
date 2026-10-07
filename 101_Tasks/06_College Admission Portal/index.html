@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>College Admission Portal</title>
+    </head>
+    <body>
+        <main>
+            <h1>College Admission Form</h1>
+            <form>
+                <section id="studentInformation">
+                    <fieldset>
+                        <legend>Student Information</legend>
+                        <label for="fullName">Full Name: </label>
+                        <input
+                            type="text"
+                            placeholder="Enter Full Name"
+                            required
+                            name="fullName"
+                            maxlength="20"
+                            id="fullName"
+                        />
+                        <span>(Max of 20 Characters)</span>
+                        <br /><br />
+                        <label for="dob">Date of Birth: </label>
+                        <input type="date" name="dob" id="dob" required />
+                        <br /><br />
+                        <span>Gender:</span>
+                        <input
+                            type="radio"
+                            name="gender"
+                            id="male"
+                            value="male"
+                        />
+                        <label for="male">Male</label>
+                        <input
+                            type="radio"
+                            name="gender"
+                            id="female"
+                            value="female"
+                        />
+                        <label for="female">Female</label>
+                        <br /><br />
+                        <label for="email">Email: </label>
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="Enter Email"
+                            required
+                        />
+                        <br /><br />
+                        <label for="phone">Phone: </label>
+                        <input
+                            type="tel"
+                            name="phone"
+                            id="phone"
+                            required
+                            placeholder="Enter Phone"
+                        />
+                        <br /><br />
+                        <label for="profilePhoto">Profile Photo</label>
+                        <input
+                            type="file"
+                            name="profilePhoto"
+                            id="profilePhoto"
+                            required
+                        />
+                    </fieldset>
+                </section>
+                <section id="Parent/Guardian Information">
+                    <fieldset>
+                        <legend>Parent / Guardian Information</legend>
+                        <label for="fatherName">Father Name: </label>
+                        <input
+                            type="text"
+                            required
+                            name="fatherName"
+                            placeholder="Enter Father Name"
+                            id="fatherName"
+                        />
+                        <br /><br />
+                        <label for="motherName">Mother Name: </label>
+                        <input
+                            type="text"
+                            required
+                            name="motherName"
+                            placeholder="Enter Mother Name"
+                            id="motherName"
+                        />
+                        <br /><br />
+                        <label for="guardianName">Guardian Name: </label>
+                        <input
+                            id="guardianName"
+                            type="text"
+                            required
+                            name="guardianName"
+                            placeholder="Enter Guardian Name"
+                        />
+                        <br /><br />
+                        <label for="parentPhone">Parent Phone: </label>
+                        <input
+                            type="tel"
+                            required
+                            id="parentPhone"
+                            name="parentPhone"
+                            placeholder="Enter Parent Phone"
+                        />
+                        <br /><br />
+                        <label for="parentEmail">Parent Email: </label>
+                        <input
+                            id="parentEmail"
+                            type="email"
+                            required
+                            name="parentEmail"
+                            placeholder="Enter Parent Email"
+                        />
+                    </fieldset>
+                </section>
+                <section id="AddressInformation">
+                    <fieldset>
+                        <legend>Address Information</legend>
+                        <label for="Address">Address: </label>
+                        <input
+                            type="text"
+                            required
+                            placeholder="Enter Address"
+                            name="address"
+                            id="Address"
+                        />
+                        <br /><br />
+                        <label for="city">City: </label>
+                        <input
+                            type="text"
+                            required
+                            placeholder="Enter City"
+                            name="city"
+                            id="city"
+                        />
+                        <br /><br />
+                        <label for="state">State: </label>
+                        <input
+                            type="text"
+                            required
+                            id="state"
+                            name="state"
+                            placeholder="Enter State"
+                        />
+                        <br /><br />
+                        <label for="pincode">Pincode: </label>
+                        <input
+                            type="number"
+                            required
+                            id="pincode"
+                            placeholder="Enter Pincode"
+                            name="pincode"
+                        />
+                    </fieldset>
+                </section>
+                <section id="academicInformation">
+                    <fieldset>
+                        <legend>Academic Information</legend>
+                        <label for="10thSchoolName">10th School Name: </label>
+                        <input
+                            type="text"
+                            required
+                            placeholder="Enter 10th School Name"
+                            name="10thSchoolName"
+                            id="10thSchoolName"
+                        />
+                        <br /><br />
+                        <label for="10thCollegePercentage"
+                            >10th School Percentage:
+                        </label>
+                        <input
+                            id="10thCollegePercentage"
+                            type="number"
+                            required
+                            min="0"
+                            max="100"
+                            placeholder="Enter 10th School Percentage"
+                            name="10thCollegePercentage"
+                        />
+                        <br /><br />
+                        <label for="12thCollegeName">12th College Name: </label>
+                        <input
+                            id="12thCollegeName"
+                            type="text"
+                            required
+                            placeholder="Enter 12th College Name"
+                            name="12thCollegeName"
+                        />
+                        <br /><br />
+                        <label for="12thCollegePercentage"
+                            >12th College Percentage:
+                        </label>
+                        <input
+                            id="12thCollegePercentage"
+                            type="number"
+                            required
+                            min="0"
+                            max="100"
+                            placeholder="Enter 12th College Percentage"
+                            name="12thCollegePercentage"
+                        />
+                        <br /><br />
+                        <label for="yearofPassing">Year of Passing: </label>
+                        <input
+                            type="number"
+                            name="yearofPassing"
+                            id="yearofPassing"
+                            required
+                            placeholder="Enter Year of Passing"
+                        />
+                    </fieldset>
+                </section>
+                <section id="courseSelection">
+                    <fieldset>
+                        <legend>Course Selection</legend>
+                        <article id="courseApplying">
+                            <span>Course applying for: </span>
+                            <select
+                                name="courseSelection"
+                                id="courseSelection"
+                                required
+                            >
+                                <option value="B.Tech-CSE">B.Tech - CSE</option>
+                                <option value="B.Tech-ECE">B.Tech - ECE</option>
+                                <option value="B.Tech-EEE">B.Tech - EEE</option>
+                                <option value="B.Tech-Mechanical">
+                                    B.Tech - Mechanical
+                                </option>
+                                <option value="B.Tech-Civil">
+                                    B.Tech - Civil
+                                </option>
+                                <option value="BCA">BCA</option>
+                                <option value="B.Sc">B.Sc</option>
+                                <option value="B.Com">B.Com</option>
+                                <option value="BA">BA</option>
+                            </select>
+                        </article>
+                        <br />
+                        <article id="studyMode">
+                            <span>Study Mode: </span>
+                            <select name="studyMode" id="studyMode" required>
+                                <option value="regular">Regular</option>
+                                <option value="distance">Distance</option>
+                                <option value="online">Online</option>
+                            </select>
+                        </article>
+                    </fieldset>
+                </section>
+                <section id="documents">
+                    <fieldset>
+                        <legend>Documents</legend>
+                        <label for="10thMarksheet">10th Marksheet: </label>
+                        <input
+                            type="file"
+                            name="10thMarksheet"
+                            id="10thMarksheet"
+                            required
+                        />
+                        <br /><br />
+                        <label for="12thMarksheet">12th Marksheet: </label>
+                        <input
+                            type="file"
+                            name="12thMarksheet"
+                            id="12thMarksheet"
+                            required
+                        />
+                        <br /><br />
+                        <label for="TransferCertificate"
+                            >Transfer Certificate:
+                        </label>
+                        <input
+                            type="file"
+                            name="TransferCertificate"
+                            id="TransferCertificate"
+                            required
+                        />
+                        <br /><br />
+                        <label for="Aadhaar/IDProof"
+                            >Aadhaar / ID Proof:
+                        </label>
+                        <input
+                            type="file"
+                            name="Aadhaar/IDProof"
+                            id="Aadhaar/IDProof"
+                            required
+                        />
+                        <br /><br />
+                        <label for="Passport-sizePhoto"
+                            >Passport-size Photo:
+                        </label>
+                        <input
+                            type="file"
+                            name="Passport-sizePhoto"
+                            id="Passport-sizePhoto"
+                            required
+                        />
+                        <br /><br />
+                    </fieldset>
+                </section>
+                <section id="OtherInformation">
+                    <fieldset>
+                        <legend>Other Information</legend>
+                        <article id="hobbies">
+                            <span>Hobbies: </span>
+                            <input
+                                type="checkbox"
+                                name="reading"
+                                id="reading"
+                            />
+                            <label for="reading">Reading</label>
+                            <input
+                                type="checkbox"
+                                name="PlayingSports"
+                                id="PlayingSports"
+                            />
+                            <label for="PlayingSports">playing Sports</label>
+                            <input
+                                type="checkbox"
+                                name="Gym/Fitness"
+                                id="Gym/Fitness"
+                            />
+                            <label for="Gym/Fitness">Gym / Fitness</label>
+                            <input type="checkbox" name="Music" id="Music" />
+                            <label for="Music">Music</label>
+                        </article>
+                        <br />
+                        <label for="aboutYourself">About Yourself: </label>
+                        <textarea
+                            name="aboutYourself"
+                            id="aboutYourself"
+                            placeholder="Enter About Yourself"
+                        ></textarea>
+                        <br /><br />
+                        <label for="whythiscourse"
+                            >Why do you want to join this course?
+                        </label>
+                        <textarea
+                            name="whythiscourse"
+                            id="whythiscourse"
+                            placeholder="Enter Why do you want to join this course?"
+                        ></textarea>
+                    </fieldset>
+                </section>
+                <section id="Declaration">
+                    <fieldset>
+                        <legend>Declaration</legend>
+                        <input
+                            type="checkbox"
+                            name="Declaration"
+                            id="Declaration"
+                            required
+                        />
+                        <span
+                            >Checkbox confirming that the information provided
+                            is correct.</span
+                        >
+                    </fieldset>
+                </section>
+                <br />
+                <input type="submit" value="Submit" />
+                <input type="reset" value="Reset" />
+            </form>
+        </main>
+    </body>
+</html>

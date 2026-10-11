@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML Documentation Website</title>
+    </head>
+    <body>
+        <nav>
+            <a href="#introduction">Introduction</a> |
+            <a href="#headings">Headings</a> |
+            <a href="#paragraphs">Paragraphs</a> | <a href="#links">Links</a> |
+            <a href="#images">Images</a> | <a href="#lists">Lists</a> |
+            <a href="#tables">Tables</a> | <a href="#forms">Forms</a> |
+            <a href="#semanticHTML">Semantic HTML</a>
+        </nav>
+        <main>
+            <header>
+                <h1>HTML Documentation</h1>
+            </header>
+            <section id="introduction">
+                <h2>Introduction</h2>
+                <p>
+                    HTML stands for HyperText Markup Language. It is the
+                    standard markup language used to create and structure
+                    content on web pages. HTML uses elements and tags to
+                    organize headings, paragraphs, images, links, lists, tables,
+                    and forms.
+                </p>
+                <article>
+                    <h3>Example:</h3>
+                    <pre><code>
+&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;title&gt;My First Web Page&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Hello, World!&lt;/h1&gt;
+        &lt;p&gt;This is my first HTML page.&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+                    </code></pre>
+                    <p>
+                        This example displays a heading that says “Hello,
+                        World!” and a paragraph that says “This is my first HTML
+                        page.” The title appears in the browser tab.
+                    </p>
+                </article>
+            </section>
+            <section id="headings">
+                <h2>HTML Headings</h2>
+                <p>
+                    HTML provides six levels of headings, from
+                    <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>. The
+                    <code>&lt;h1&gt;</code> element represents the highest-level
+                    heading, while <code>&lt;h6&gt;</code>
+                    represents the lowest-level heading. Headings organize
+                    webpage content into sections and make it easier for readers
+                    to understand the structure of a page.
+                </p>
+                <article>
+                    <h3>Example:</h3>
+                    <p>
+                        Remember to use &lt; and &gt; when displaying HTML code
+                        inside your documentation.
+                    </p>
+                    <pre><code>
+&lt;h1&gt;Main Heading&lt;/h1&gt;
+&lt;h2&gt;Section Heading&lt;/h2&gt;
+&lt;h3&gt;Subsection Heading&lt;/h3&gt;
+&lt;h4&gt;Level Four Heading&lt;/h4&gt;
+&lt;h5&gt;Level Five Heading&lt;/h5&gt;
+&lt;h6&gt;Level Six Heading&lt;/h6&gt;
+</code></pre>
+                    <p>
+                        The browser displays six headings with different levels
+                        of importance. By default,
+                        <code>&lt;h1&gt;</code> usually appears the largest,
+                        while <code>&lt;h6&gt;</code> usually appears the
+                        smallest.
+                    </p>
+                    <p>
+                        The heading levels help organize content logically.
+                        Choose them according to the structure of your content,
+                        not just their default text sizes.
+                    </p>
+                </article>
+            </section>
+            <section id="paragraphs">
+                <h2>HTML Paragraphs</h2>
+                <p>
+                    HTML uses the <code>&lt;p&gt;</code> element to define a
+                    paragraph of text. Paragraphs help organize written content
+                    into separate blocks, making webpages easier to read and
+                    understand. Browsers typically add space before and after
+                    paragraphs automatically.
+                </p>
+                <article>
+                    <h3>Example:</h3>
+                    <p>
+                        Use &lt; and &gt; to display the code correctly in your
+                        documentation.
+                    </p>
+                    <pre><code>
+&lt;p&gt;HTML is used to structure web pages.&lt;/p&gt;
+&lt;p&gt;Paragraphs organize text into readable blocks.&lt;/p&gt;
+                </code></pre>
+                    <p>The browser displays two separate paragraphs:</p>
+                    <ul>
+                        <li>HTML is used to structure web pages.</li>
+                        <li>Paragraphs organize text into readable blocks.</li>
+                        <li>
+                            Each paragraph appears as a separate block of text,
+                            with space between them by default.
+                        </li>
+                    </ul>
+                </article>
+            </section>
+            <section id="links">
+                <h2>Links</h2>
+                <p>
+                    HTML uses the <code>&lt;a&gt;</code> (anchor) element to
+                    create hyperlinks. Links allow users to navigate between
+                    webpages, open external websites, or jump to a specific
+                    section on the same page. The href attribute specifies the
+                    destination of a link.
+                </p>
+                <article>
+                    <h3>Example:</h3>
+                    <pre><code>
+&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;
+
+&lt;a href="about.html"&gt;About Us&lt;/a&gt;
+
+&lt;a href="#introduction"&gt;Go to Introduction&lt;/a&gt;
+</code></pre>
+                    <ul>
+                        <li>
+                            <b>Visit Example</b> opens the external website
+                            specified in the <code>href</code>.
+                        </li>
+                        <li>
+                            <b>About Us</b> opens the local page named
+                            <code>about.html</code>.
+                        </li>
+                        <li>
+                            <b>Go to Introduction</b> jumps to the section whose
+                            ID is <code>introduction</code> on the same page.
+                        </li>
+                    </ul>
+                    <p>
+                        Links make websites easier to navigate and connect
+                        related content.
+                    </p>
+                </article>
+            </section>
+            <section id="images">
+                <h2>Images</h2>
+                <p>
+                    HTML uses the <code>&lt;img&gt;</code> element to display
+                    images on a webpage. The src attribute specifies the image
+                    location, while the alt attribute provides a text
+                    description of the image. The
+                    <code>&lt;img&gt;</code> element is a void element, meaning
+                    it does not need a closing tag.
+                </p>
+                <article>
+                    <h3>Example:</h3>
+                    <pre><code>
+&lt;img src="images/nature.jpg" alt="A beautiful green forest"&gt;
+</code></pre>
+                    <p>
+                        The browser displays the image stored at
+                        <code>images/nature.jpg</code>. If the image cannot
+                        load, the alternative text
+                        <b>“A beautiful green forest”</b> can help users
+                        understand what the image represents.
+                    </p>
+                    <p>
+                        The <code>alt</code> attribute is also important for
+                        accessibility, especially for people who use screen
+                        readers.
+                    </p>
+                </article>
+            </section>
+            <section id="lists">
+                <h2>Lists</h2>
+                <p>
+                    HTML provides two main types of lists: ordered lists using
+                    the <code>&lt;ol&gt;</code> element and unordered lists
+                    using the <code>&lt;ul&gt;</code> element. Each list item is
+                    defined using the <code>&lt;li&gt;</code> element.
+                </p>
+                <ul>
+                    <li>
+                        <b>Ordered list</b>(<code>&lt;ol&gt;</code>) - Displays
+                        items with numbers by default.
+                    </li>
+                    <li>
+                        <b>Unordered list</b>(<code>&lt;ul&gt;</code>) -
+                        Displays items with bullet points by default.
+                    </li>
+                    <li>
+                        <b>List item</b>(<code>&lt;li&gt;</code>) - Defines an
+                        individual item in a list.
+                    </li>
+                </ul>
+                <article>
+                    <h3>Example:</h3>
+                    <pre><code>
+&lt;h3&gt;Ordered List&lt;/h3&gt;
+&lt;ol&gt;
+    &lt;li&gt;Learn HTML&lt;/li&gt;
+    &lt;li&gt;Learn CSS&lt;/li&gt;
+    &lt;li&gt;Learn JavaScript&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Unordered List&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;Apple&lt;/li&gt;
+    &lt;li&gt;Banana&lt;/li&gt;
+    &lt;li&gt;Orange&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+                    <p>Ordered List</p>
+                    <ol>
+                        <li>Learn HTML</li>
+                        <li>Learn CSS</li>
+                        <li>Learn JavaScript</li>
+                    </ol>
+                    <p>Unordered List</p>
+                    <ul>
+                        <li>Apple</li>
+                        <li>Banana</li>
+                        <li>Orange</li>
+                    </ul>
+                    <p>
+                        <b>Important</b>: The <code>&lt;li&gt;</code> element
+                        must be placed inside an ordered or unordered list to
+                        define its items.
+                    </p>
+                </article>
+            </section>
+            <section id="tables">
+                <h2>Tables</h2>
+                <p>
+                    HTML uses the <code>&lt;table&gt;</code> element to display
+                    data in rows and columns.
+                </p>
+                <ul>
+                    <li>
+                        <b><code>&lt;table&gt;</code></b> - Creates a table.
+                    </li>
+                    <li>
+                        <b><code>&lt;tr&gt;</code></b> - Defines a table row.
+                    </li>
+                    <li>
+                        <b><code>&lt;th&gt;</code></b> - Defines a header cell.
+                    </li>
+                    <li>
+                        <b><code>&lt;td&gt;</code></b> - Defines a regular data
+                        cell.
+                    </li>
+                    <li>
+                        <b><code>&lt;thead&gt;</code></b> - Groups the table's
+                        header rows.
+                    </li>
+                    <li>
+                        <b><code>&lt;tbody&gt;</code></b> - Groups the main data
+                        rows.
+                    </li>
+                </ul>
+                <article>
+                    <h3>Example:</h3>
+                    <p>Add this inside your Tables section:</p>
+                    <pre><code>
+&lt;table border="1"&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Name&lt;/th&gt;
+            &lt;th&gt;Age&lt;/th&gt;
+            &lt;th&gt;Course&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Ankit&lt;/td&gt;
+            &lt;td&gt;20&lt;/td&gt;
+            &lt;td&gt;CSE&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Rahul&lt;/td&gt;
+            &lt;td&gt;21&lt;/td&gt;
+            &lt;td&gt;ECE&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+</code></pre>
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Course</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ankit</td>
+                                <td>20</td>
+                                <td>CSE</td>
+                            </tr>
+                            <tr>
+                                <td>Rahul</td>
+                                <td>21</td>
+                                <td>ECE</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>
+                        The table displays student information in three columns
+                        and two data rows. The <code>border="1"</code> attribute
+                        adds a basic border for demonstration purposes.
+                    </p>
+                    <p>
+                        <b>Important: </b>In modern HTML, table appearance is
+                        generally controlled using CSS rather than the border
+                        attribute. Since you're currently practising HTML only,
+                        you can use this example to understand the table
+                        structure.
+                    </p>
+                </article>
+            </section>
+            <section id="forms">
+                <h2>Forms</h2>
+                <p>
+                    HTML forms are used to collect information from users, such
+                    as names, email addresses, passwords, and messages. The
+                    <code>&lt;form&gt;</code> element creates a form, while
+                    different input elements allow users to enter or select
+                    information.
+                </p>
+                <ul>
+                    <li>
+                        <b><code>&lt;form&gt;</code></b> - Creates a form.
+                    </li>
+                    <li>
+                        <b><code>&lt;label&gt;</code></b> - Provides a label for
+                        an input field.
+                    </li>
+                    <li>
+                        <b><code>&lt;input&gt;</code></b> - Accepts user input.
+                    </li>
+                    <li>
+                        <b><code>&lt;textarea&gt;</code></b> - Allows users to
+                        enter longer text.
+                    </li>
+                    <li>
+                        <b><code>&lt;select&gt;</code></b> - Creates a dropdown
+                        list.
+                    </li>
+                    <li>
+                        <b><code>&lt;option&gt;</code></b> - Defines an option
+                        in a dropdown.
+                    </li>
+                    <li>
+                        <b><code>&lt;button&gt;</code></b> - Creates a clickable
+                        button.
+                    </li>
+                </ul>
+                <article>
+                    <h3>Example:</h3>
+                    <pre><code>
+&lt;form action="#" method="post"&gt;
+    &lt;label for="name"&gt;Name:&lt;/label&gt;
+    &lt;input type="text" id="name" name="name" placeholder="Enter your name"&gt;
+    &lt;br&gt;&lt;br&gt;
+
+    &lt;label for="email"&gt;Email:&lt;/label&gt;
+    &lt;input type="email" id="email" name="email" placeholder="Enter your email"&gt;
+    &lt;br&gt;&lt;br&gt;
+
+    &lt;label for="course"&gt;Course:&lt;/label&gt;
+    &lt;select id="course" name="course"&gt;
+        &lt;option value="cse"&gt;CSE&lt;/option&gt;
+        &lt;option value="ece"&gt;ECE&lt;/option&gt;
+        &lt;option value="eee"&gt;EEE&lt;/option&gt;
+    &lt;/select&gt;
+
+    &lt;br&gt;&lt;br&gt;
+
+    &lt;label for="message"&gt;Message:&lt;/label&gt;
+    &lt;textarea id="message" name="message"&gt;&lt;/textarea&gt;
+
+    &lt;br&gt;&lt;br&gt;
+
+    &lt;button type="submit"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;
+</code></pre>
+                    <p>The browser displays a form containing:</p>
+                    <ul>
+                        <li>A text field to enter a name.</li>
+                        <li>An email field to enter an email address.</li>
+                        <li>A dropdown to select a course.</li>
+                        <li>A text area to write a message.</li>
+                        <li>A Submit button.</li>
+                    </ul>
+                    <h3>Important concepts:</h3>
+                    <ul>
+                        <li>
+                            The <code>for</code> attribute on a
+                            <code>&lt;label&gt;</code> should match the input's
+                            id.
+                        </li>
+                        <li>
+                            The <code>name</code> attribute identifies a field
+                            when form data is submitted.
+                        </li>
+                        <li>
+                            <code>type="email"</code> provides basic
+                            email-format validation.
+                        </li>
+                        <li>
+                            <code>action="#"</code> is only a placeholder here.
+                            This example does not send the data to a real
+                            server.
+                        </li>
+                    </ul>
+                </article>
+            </section>
+            <section id="semanticHTML">
+                <h2>Semantic HTML</h2>
+                <p>
+                    Semantic HTML uses elements that clearly describe the
+                    meaning and purpose of the content they contain. These
+                    elements help browsers, search engines, and assistive
+                    technologies understand the structure of a webpage.
+                </p>
+                <p>Common semantic elements include:</p>
+                <ul>
+                    <li>
+                        <b
+                            ><code>&lt;header&gt;</code> - Represents
+                            introductory content or a page header.</b
+                        >
+                    </li>
+                    <li>
+                        <b><code>&lt;nav&gt;</code></b> - Contains navigation
+                        links.
+                    </li>
+                    <li>
+                        <b><code>&lt;main&gt;</code></b> - Contains the main
+                        content of a webpage.
+                    </li>
+                    <li>
+                        <b><code>&lt;section&gt;</code></b> - Groups related
+                        content.
+                    </li>
+                    <li>
+                        <b><code>&lt;article&gt;</code></b> - Represents
+                        self-contained content, such as a blog post.
+                    </li>
+                    <li>
+                        <b><code>&lt;aside&gt;</code></b> - Contains related or
+                        supplementary content.
+                    </li>
+                    <li>
+                        <b><code>&lt;footer&gt;</code></b> - Represents footer
+                        information.
+                    </li>
+                </ul>
+                <article>
+                    <h3>Example:</h3>
+                    <pre><code>
+&lt;header&gt;
+    &lt;h1&gt;Code with Beroz&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;nav&gt;
+    &lt;a href="#home"&gt;Home&lt;/a&gt;
+    &lt;a href="#about"&gt;About&lt;/a&gt;
+&lt;/nav&gt;
+
+&lt;main&gt;
+    &lt;section&gt;
+        &lt;h2&gt;Web Development&lt;/h2&gt;
+        &lt;p&gt;Learn the basics of building websites.&lt;/p&gt;
+    &lt;/section&gt;
+
+    &lt;article&gt;
+        &lt;h2&gt;My First Blog Post&lt;/h2&gt;
+        &lt;p&gt;This is an example of an article.&lt;/p&gt;
+    &lt;/article&gt;
+
+    &lt;aside&gt;
+        &lt;p&gt;Related resources and links.&lt;/p&gt;
+    &lt;/aside&gt;
+&lt;/main&gt;
+
+&lt;footer&gt;
+    &lt;p&gt;Copyright 2026 Code with Beroz.&lt;/p&gt;
+&lt;/footer&gt;
+</code></pre>
+                    <p>The browser displays a webpage with:</p>
+                    <ul>
+                        <li>A header containing the website title.</li>
+                        <li>A navigation area with Home and About links.</li>
+                        <li>Main content with a Web Development section.</li>
+                        <li>A separate article containing a blog post.</li>
+                        <li>An aside containing related information.</li>
+                        <li>A footer displaying copyright information.</li>
+                    </ul>
+                    <p>
+                        <b>Important: </b>Semantic elements describe the meaning
+                        of content, not its visual appearance. Without CSS, the
+                        browser generally displays these elements as block-level
+                        sections, and they won't automatically look like a
+                        styled website.
+                    </p>
+                </article>
+            </section>
+        </main>
+    </body>
+</html>

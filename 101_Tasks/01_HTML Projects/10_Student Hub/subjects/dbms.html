@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Database Management Systems - Student Hub</title>
+    </head>
+    <body>
+        <header>
+            <h1>Database Management Systems (DBMS)</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../subjects.html">Subjects</a></li>
+                    <li><a href="../timetable.html">Timetable</a></li>
+                    <li><a href="../notes.html">Notes</a></li>
+                    <li><a href="../resources.html">Resources</a></li>
+                    <li><a href="../projects.html">Projects</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="introduction">
+                <h2>What Is a DBMS?</h2>
+                <p>
+                    A Database Management System (DBMS) is software used to
+                    create, store, organize, retrieve, and manage data
+                    efficiently. It allows users and applications to interact
+                    with databases.
+                </p>
+            </section>
+
+            <section id="advantages">
+                <h2>Advantages of DBMS</h2>
+                <ul>
+                    <li>Reduces unnecessary data duplication</li>
+                    <li>Improves data consistency</li>
+                    <li>Supports data security</li>
+                    <li>Allows efficient data retrieval</li>
+                    <li>Supports backup and recovery</li>
+                    <li>Enables data sharing between users</li>
+                </ul>
+            </section>
+
+            <section id="types">
+                <h2>Types of Databases</h2>
+                <ul>
+                    <li>Relational Database</li>
+                    <li>Hierarchical Database</li>
+                    <li>Network Database</li>
+                    <li>Object-Oriented Database</li>
+                    <li>NoSQL Database</li>
+                </ul>
+            </section>
+
+            <section id="databaseModels">
+                <h2>Relational Database Model</h2>
+                <p>
+                    The relational model organizes data into tables consisting
+                    of rows and columns. Tables can be related using keys.
+                </p>
+
+                <h3>Important Terms</h3>
+                <ul>
+                    <li><b>Table:</b> A collection of related data.</li>
+                    <li><b>Row:</b> A single record in a table.</li>
+                    <li><b>Column:</b> An attribute of a table.</li>
+                    <li>
+                        <b>Primary Key:</b> Uniquely identifies each record.
+                    </li>
+                    <li>
+                        <b>Foreign Key:</b> References a key in another table.
+                    </li>
+                </ul>
+            </section>
+
+            <section id="erModel">
+                <h2>Entity-Relationship Model</h2>
+                <p>
+                    The Entity-Relationship (ER) model represents entities,
+                    their attributes, and the relationships between them.
+                </p>
+
+                <h3>Main Components</h3>
+                <ul>
+                    <li>
+                        <b>Entity:</b> An object or concept being represented.
+                    </li>
+                    <li><b>Attribute:</b> A property of an entity.</li>
+                    <li>
+                        <b>Relationship:</b> An association between entities.
+                    </li>
+                </ul>
+            </section>
+
+            <section id="sql">
+                <h2>Structured Query Language (SQL)</h2>
+                <p>
+                    SQL is used to define, retrieve, insert, update, and delete
+                    data in relational databases.
+                </p>
+
+                <h3>Common SQL Commands</h3>
+                <ul>
+                    <li><b>SELECT:</b> Retrieves data.</li>
+                    <li><b>INSERT:</b> Adds new records.</li>
+                    <li><b>UPDATE:</b> Modifies existing records.</li>
+                    <li><b>DELETE:</b> Removes records.</li>
+                    <li><b>CREATE:</b> Creates database objects.</li>
+                    <li><b>ALTER:</b> Modifies database structures.</li>
+                    <li><b>DROP:</b> Removes database objects.</li>
+                </ul>
+
+                <h3>Example SQL Query</h3>
+                <p>
+                    The following query retrieves all records from a Students
+                    table:
+                </p>
+                <pre><code>SELECT * FROM Students;</code></pre>
+            </section>
+
+            <section id="normalization">
+                <h2>Database Normalization</h2>
+                <p>
+                    Normalization organizes database tables to reduce data
+                    redundancy and avoid certain data anomalies.
+                </p>
+
+                <h3>Common Normal Forms</h3>
+                <ul>
+                    <li>First Normal Form (1NF)</li>
+                    <li>Second Normal Form (2NF)</li>
+                    <li>Third Normal Form (3NF)</li>
+                    <li>Boyce-Codd Normal Form (BCNF)</li>
+                </ul>
+            </section>
+
+            <section id="transactions">
+                <h2>Database Transactions</h2>
+                <p>
+                    A transaction is a sequence of database operations treated
+                    as a logical unit of work.
+                </p>
+
+                <h3>ACID Properties</h3>
+                <ul>
+                    <li>
+                        <b>Atomicity:</b> All operations succeed or none do.
+                    </li>
+                    <li>
+                        <b>Consistency:</b> Data remains valid according to
+                        rules.
+                    </li>
+                    <li>
+                        <b>Isolation:</b> Concurrent transactions are
+                        controlled.
+                    </li>
+                    <li><b>Durability:</b> Committed changes persist.</li>
+                </ul>
+            </section>
+
+            <section id="studyTips">
+                <h2>Study Tips</h2>
+                <ul>
+                    <li>Practice writing SQL queries regularly.</li>
+                    <li>Understand primary keys and foreign keys.</li>
+                    <li>Practice drawing ER diagrams.</li>
+                    <li>Learn normalization with examples.</li>
+                    <li>Understand ACID properties and transactions.</li>
+                </ul>
+            </section>
+
+            <section id="resources">
+                <h2>Useful Learning Resources</h2>
+                <ul>
+                    <li>
+                        <a href="https://www.w3schools.com/sql/">
+                            W3Schools - SQL Tutorial
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.geeksforgeeks.org/dbms/">
+                            GeeksforGeeks - DBMS
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="otherSubjects">
+                <h2>Continue Learning</h2>
+                <ul>
+                    <li>
+                        <a href="daa.html">Design and Analysis of Algorithms</a>
+                    </li>
+                    <li><a href="os.html">Operating Systems</a></li>
+                    <li><a href="cn.html">Computer Networks</a></li>
+                    <li><a href="../subjects.html">Back to All Subjects</a></li>
+                    <li><a href="../index.html">Back to Home</a></li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Student Hub. All rights reserved.</p>
+            <p>Learn. Organize. Grow.</p>
+        </footer>
+    </body>
+</html>

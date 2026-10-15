@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Registration</title>
+    </head>
+    <body>
+        <header>
+            <h1>Student Registration</h1>
+            <p>
+                Welcome to Student Hub! Register here to explore learning
+                resources, subject notes, academic information, and student
+                projects.
+            </p>
+        </header>
+        <main>
+            <section>
+                <h2>Personal Information</h2>
+
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required />
+
+                <br /><br />
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required />
+
+                <br /><br />
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" />
+
+                <br /><br />
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" />
+            </section>
+            <section>
+                <h2>Academic Information</h2>
+
+                <label for="college">College Name:</label>
+                <input type="text" id="college" name="college" required />
+
+                <br /><br />
+
+                <label for="course">Course:</label>
+                <select id="course" name="course" required>
+                    <option value="">Select your course</option>
+                    <option value="btech">B.Tech</option>
+                    <option value="bsc">B.Sc</option>
+                    <option value="bca">BCA</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <br /><br />
+
+                <label for="year">Year of Study:</label>
+                <select id="year" name="year" required>
+                    <option value="">Select your year</option>
+                    <option value="1">First Year</option>
+                    <option value="2">Second Year</option>
+                    <option value="3">Third Year</option>
+                    <option value="4">Fourth Year</option>
+                </select>
+
+                <br /><br />
+
+                <label for="branch">Branch:</label>
+                <input type="text" id="branch" name="branch" />
+            </section>
+            <section>
+                <h2>Areas of Interest</h2>
+
+                <input
+                    type="checkbox"
+                    id="webdev"
+                    name="interests"
+                    value="webdev"
+                />
+                <label for="webdev">Web Development</label>
+
+                <br />
+
+                <input
+                    type="checkbox"
+                    id="programming"
+                    name="interests"
+                    value="programming"
+                />
+                <label for="programming">Programming</label>
+
+                <br />
+
+                <input type="checkbox" id="dsa" name="interests" value="dsa" />
+                <label for="dsa">Data Structures and Algorithms</label>
+
+                <br />
+
+                <input
+                    type="checkbox"
+                    id="databases"
+                    name="interests"
+                    value="databases"
+                />
+                <label for="databases">Databases</label>
+
+                <br />
+
+                <input
+                    type="checkbox"
+                    id="networks"
+                    name="interests"
+                    value="networks"
+                />
+                <label for="networks">Computer Networks</label>
+            </section>
+            <section>
+                <h2>Account Information</h2>
+
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required />
+
+                <br /><br />
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required />
+
+                <br /><br />
+
+                <label for="confirmPassword">Confirm Password:</label>
+                <input
+                    type="password"
+                    id="confirmPassword"
+                    name="confirmPassword"
+                    required
+                />
+            </section>
+            <section>
+                <h2>Additional Information</h2>
+
+                <label for="reason">Why do you want to join Student Hub?</label>
+                <br />
+
+                <textarea
+                    id="reason"
+                    name="reason"
+                    rows="5"
+                    cols="40"
+                    placeholder="Tell us about your learning goals..."
+                ></textarea>
+
+                <br /><br />
+
+                <input type="checkbox" id="terms" name="terms" required />
+                <label for="terms">I agree to the terms and conditions.</label>
+            </section>
+            <section>
+                <h2>Complete Registration</h2>
+
+                <button type="submit">Register</button>
+                <button type="reset">Clear Form</button>
+            </section>
+        </main>
+    </body>
+</html>

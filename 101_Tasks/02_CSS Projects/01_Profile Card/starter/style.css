@@ -1,0 +1,30 @@
+/* Business / Profile Card */
+:root {
+  --bg: #0F172A;
+  --card: #1E293B;
+  --accent: #38BDF8;
+  --text: #F1F5F9;
+  --muted: #94A3B8;
+  --line: #334155;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Inter, system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

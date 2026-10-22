@@ -1,0 +1,18 @@
+body {
+    /* this is a universal selector */
+    background-color: beige;
+    /* margin: 0; */
+}
+
+header {
+    background-color: white;
+}
+
+h1 {
+    background-color: blueviolet;
+    font-size: 50px;
+}
+
+p::after {
+    content: "...";
+}

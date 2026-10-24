@@ -28,3 +28,12 @@ html {
     background-color: beige;
     /* min-width: 100px; */
 }
+
+#child1 {
+    flex-basis: 100%;
+    /* flex-grow: 0; */
+}
+
+#child2 {
+    flex-grow: 1;
+}

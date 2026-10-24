@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+        box-sizing: inherit;
+}
+
+div {
+    border-radius: 10px;
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(
+        90deg,
+        rgba(42, 123, 155, 1) 0%,
+        rgba(0, 255, 106, 1) 50%,
+        rgba(237, 221, 83, 1) 100%
+    );
+}

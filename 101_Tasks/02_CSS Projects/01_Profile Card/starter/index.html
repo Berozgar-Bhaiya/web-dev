@@ -15,27 +15,44 @@
     <body>
         <div id="container">
             <div id="card">
-                <img
-                    src="https://images.unsplash.com/photo-1551265787-8e8b77e9cd56?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
-                    alt=""
-                />
-                <h1>Jamie Dawson</h1>
-                <p>Front-end developer</p>
-                <p>
-                    <img
-                        src="/101_Tasks/02_CSS Projects/01_Profile Card/icons/map-pin.svg"
-                        alt=""
-                    />
-                    Hyderabad, India
-                </p>
-                <p>
-                    Building small, fast websites and learning something new
-                    every week.
-                </p>
-                
-            </div>
-            <div>
-                
+                <div id="topSection">
+                    <div id="profilephoto"></div>
+                    <h1 id="name">Jamie Dawson</h1>
+                    <p id="title">Front-end Developer</p>
+                    <section id="locationSection">
+                        <img id="mapIcon" src="../icons/map-pin.svg" alt="" />
+                        <span id="location">Hyderabad, India</span>
+                    </section>
+                    <p id="bio">
+                        Building small, fast websites and learning something new
+                        every week.
+                    </p>
+                </div>
+                <div id="btns">
+                    <section>
+                        <button>
+                            <img src="../icons/github.svg" alt="github icon" />
+                            <a href="https://www.github.com" target="_blank"
+                                >GitHub</a
+                            >
+                        </button>
+                    </section>
+                    <section>
+                        <button>
+                            <img
+                                src="../icons/linkedin.svg"
+                                alt="linkedln icon"
+                            />
+                            <a href="https://www.linkedin.com">Linkedin</a>
+                        </button>
+                    </section>
+                    <section>
+                        <button>
+                            <img src="../icons/mail.svg" alt="mail icon" />
+                            <a href="mailtoabc@gmail.com">Email me</a>
+                        </button>
+                    </section>
+                </div>
             </div>
         </div>
     </body>

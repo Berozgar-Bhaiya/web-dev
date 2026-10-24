@@ -1,0 +1,25 @@
+:root {
+    --pink: #ff4885; 
+    --lightblue: #cbe2fe;
+    --darkblue: #10288c;
+    --cream: #ffe8f0;
+    --voliet: #4b0090;
+}
+
+h1 {
+    background-color: var(--pink);
+}
+
+div {
+    background-color: var(--darkblue);
+}
+
+p {
+    line-height: 1.9;
+    color: var(--cream);
+}
+
+.random span {
+    display: block;
+    color: var(--pink  );
+}

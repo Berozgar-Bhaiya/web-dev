@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* #parent {
+    background-color: red;
+    width: 400px;
+    height: 300px;
+}
+
+#child {
+    background-color: blueviolet;
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+} */
+
+div {
+    height: 1000px;
+    width: 100px;
+    background-color: red;
+}
+
+img {
+    max-width: 100%;
+    height: auto
+}
